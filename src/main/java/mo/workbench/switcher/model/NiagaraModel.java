@@ -92,7 +92,6 @@ public class NiagaraModel {
                                 // Try to figure out how to issue "wb" command here...
                                 // ... ideally, would want to launch the console with the execution of the wb command
                                 printWriter.println(f.getAbsolutePath());
-                                printWriter.println("wb");
                                 printWriter.close();
 
                             } else if (f.getName().equals("plat.exe")) {
