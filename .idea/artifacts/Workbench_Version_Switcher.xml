@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" build-on-make="true" name="Workbench Version Switcher">
+    <output-path>$PROJECT_DIR$/out/artifacts/Workbench_Version_Switcher</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="mo.workbench.switcher.model.MainApp" />
+        <option name="description" value="" />
+        <option name="htmlParamFile" value="" />
+        <option name="paramFile" value="" />
+        <option name="title" value="Work Bench Switcher" />
+        <option name="vendor" value="" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="Workbench_Version_Switcher.jar">
+        <element id="module-output" name="Workbench Version Switcher" />
+      </element>
+    </root>
+  </artifact>
+</component>

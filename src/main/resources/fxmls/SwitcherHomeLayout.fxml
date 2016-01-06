@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="550.0" stylesheets="@../css/flatterfx.css" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="filePreview" alignment="CENTER_LEFT" layoutX="92.0" layoutY="62.0" stylesheets="@../css/flatterfx.css" />
+      <Button fx:id="chooseLocation" layoutX="92.0" layoutY="145.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="252.0" text="Change Niagara Home" />
+      <Button fx:id="switchVersions" layoutX="92.0" layoutY="244.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="252.0" text="Switch Versions" />
+      <VBox fx:id="versionsVBox" layoutX="378.0" layoutY="151.0" prefHeight="257.0" prefWidth="156.0" />
+      <CheckBox fx:id="launchCheckBox" layoutX="69.0" layoutY="339.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="360.0" text="Launch console after Install" />
+   </children>
+</AnchorPane>
